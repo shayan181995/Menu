@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <group android:checkableBehavior="single">
+        <item   android:id="@+id/menu_red" android:title="Red"
+            android:orderInCategory="1" app:showAsAction="never" />
+        <item   android:id="@+id/menu_blue" android:title="Blue"
+            android:orderInCategory="1" app:showAsAction="never" />
+        <item   android:id="@+id/menu_green" android:title="Green"
+            android:orderInCategory="1" app:showAsAction="never" />
+    </group>
+
+</menu>
